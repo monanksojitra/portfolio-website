@@ -111,6 +111,7 @@ h2::selection {
   border-radius: 5px;
   transition: 0.4s ease-in-out;
   cursor: pointer;
+  
 }
 
 .card a {
@@ -119,6 +120,7 @@ h2::selection {
   font-size: 1.1rem;
   margin-right: 0.3rem;
 }
+
 
 .card a:hover {
   color: var(--primary-color);
@@ -197,6 +199,63 @@ h2::selection {
 }
 .card1:nth-child(11) {
   background: url(../assets/challenges/img-\ \(11\).png) center center/cover;
+}
+.card1:nth-child(12) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQHQ691so66c8w/feedshare-shrink_800/0/1692172799434?e=1698883200&v=beta&t=Gczdy50LNu5lfR9gQIMLZxshLBaX-buA9ue5dvLZ084) center center/cover;
+}
+.card1:nth-child(13) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQGFkahLsBWBRg/feedshare-shrink_800/0/1692287328021?e=1698883200&v=beta&t=LnAc4ZXfdl_BNg8j7iHOvp1aMO6rSGm00cKnlEDDYQk) center center/cover;
+}
+.card1:nth-child(14) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQHRq8Otctn-jg/feedshare-shrink_800/0/1692377271811?e=1698883200&v=beta&t=D_iDkuzWGRO7-deg16s5urNYGpgvEeY__LU5uTI2lao) center center/cover;
+}
+.card1:nth-child(15) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQFdQ-xsjCpxbA/feedshare-shrink_800/0/1692451212914?e=1698883200&v=beta&t=MSwlycCCOkHJ3A7LpGtq-50kOGcKrApz1qP3WvIauHs) center center/cover;
+}
+.card1:nth-child(16) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQGG48TVtLOI4w/feedshare-shrink_800/0/1692532395812?e=1698883200&v=beta&t=umJISeRWsGo_GKxyTyynU8asipkcAU1Gkcqnq2n9KxY) center center/cover;
+}
+.card1:nth-child(17) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQGa4pYqm3jgdQ/feedshare-shrink_800/0/1692601998234?e=1698883200&v=beta&t=roxtqDdU6D40l3DJ5OJ8zk35rFAIlo7vLcTtfcI3pbE) center center/cover;
+}
+.card1:nth-child(18) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQEZmRwdMWBg8w/feedshare-shrink_800/0/1692700694227?e=1698883200&v=beta&t=07YYG5PxppumK0ZWf-jZT70tRZ9LH3_2T7KuTLOG-2A) center center/cover;
+}
+.card1:nth-child(19) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQGl3miQplVb1Q/feedshare-shrink_800/0/1692801532835?e=1698883200&v=beta&t=nWzBofaM4ScnIAnaSkiYdOTwoCpjtsKmOcBa91FsOy4) center center/cover;
+}
+.card1:nth-child(20) {
+  background: url(https://media.licdn.com/dms/image/D5622AQFHEwRMUBbsvg/feedshare-shrink_800/0/1692890052798?e=1698883200&v=beta&t=4u4-7S3XN9llH8I6lD3fReQ-35-m1jtlI1C9fL72m2A) center center/cover;
+}
+.card1:nth-child(21) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQFXRhg9vIk7Og/feedshare-shrink_800/0/1693030369371?e=1698883200&v=beta&t=X9QDv3I0kvWTxlDsYZDxNT4s5ykcyur8mQb0QJSSmN4) center center/cover;
+}
+.card1:nth-child(22) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQHBXJ_27XC2qQ/feedshare-shrink_800/0/1693159557030?e=1698883200&v=beta&t=q4oCct47U8NgRZKkFbjUTXN34ybQXIZ6fXQAD7536l8) center center/cover;
+}
+.card1:nth-child(23) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQGdf_EpZohhDA/feedshare-shrink_800/0/1693327903469?e=1698883200&v=beta&t=PcJKmDCpJFGzDRwlRt4OCOpgpaIQVOTu3QD_4wRy1P0) center center/cover;
+}
+.card1:nth-child(24) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQFcRvbnuRLhPw/feedshare-shrink_800/0/1693416100887?e=1698883200&v=beta&t=NYNVvvvo6kKTMDLpdFGY9C6SnLs7eZINPlU5ijPhmp8) center center/cover;
+}
+.card1:nth-child(25) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQG14V735pNV8A/feedshare-shrink_800/0/1693560623520?e=1698883200&v=beta&t=ghOHmH6YtY0cEm61xC7U1-prIVVKLUJh-3UBCNYk5Jc) center center/cover;
+}
+.card1:nth-child(26) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQHdVChncmkw9A/feedshare-shrink_800/0/1693671864525?e=1698883200&v=beta&t=hodgCETGKRmxswskA_CrPdM82x8X7gpEXj-5EfsJkhw) center center/cover;
+}
+.card1:nth-child(27) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQEzsMq5b0ljyw/feedshare-shrink_800/0/1693834063484?e=1698883200&v=beta&t=ie3NgXUSTjyDYFIWJt9ygppNZH_wsymHSjPqG3kXNxg) center center/cover;
+}
+.card1:nth-child(28) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQEKvI-kgpq8ig/feedshare-shrink_800/0/1694235972071?e=1698883200&v=beta&t=fyFSzwaiqcnLvV36v7f1EqbQn_f8fCHPmiUobCN2AVs) center center/cover;
+}
+.card1:nth-child(29) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQGw1zqPlEG07A/feedshare-shrink_800/0/1694240950959?e=1698883200&v=beta&t=16JDNlStvPwhWY0PMFkmqLpUhIJ5N5rig7YRV5ySD0M) center center/cover;
+}
+.card1:nth-child(30) {
+  background: url(https://media.licdn.com/dms/image/D4D22AQFgjsJj3CqLfA/feedshare-shrink_800/0/1694365826159?e=1698883200&v=beta&t=jIn4DuwcxVPS_e33fV9U5uFZFcUmMUcjO6Wt0nTfgno) center center/cover;
 }
 
 

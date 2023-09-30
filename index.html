@@ -1,372 +1,835 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <meta name="title" content="Portfolio Template - Open source" />
+    <meta
+      name="description"
+      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+    />
 
-  <title>Portfolio Website</title>
-  <meta name="title" content="Portfolio Template - Open source" />
-  <meta name="description"
-    content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./css/>
+    <link
+      rel=" icon"
+      type="image/png"
+      sizes="32x32"
+      href="./css/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./css/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./css/site.webmanifest" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./css/>
-  <link rel=" icon" type="image/png" sizes="32x32" href="./css/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./css/favicon-16x16.png">
-  <link rel="manifest" href="./css/site.webmanifest">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/utilities.css" />
-</head>
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="https://github.com/monanksojitra" target="_blank"
+              ><img src="./assets/logo.jpg" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li>
+              <a class="nav-link" href="mailto:monaksojitra4444@gmail.com"
+                >CONTACT</a
+              >
+            </li>
+            <li><a class="nav-link" href="#">ABOUT</a></li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                target="_blank"
+                href="./assets/cv.pdf"
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
 
-<body>
-  <header id="hero">
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="container">
-        <!-- Logo -->
-        <h1 id="logo">
-          <a href="https://github.com/monanksojitra" target="_blank"><img src="./assets/logo.jpg" alt="Your Logo" /></a>
-        </h1>
-        <!-- Navbar links -->
-        <ul class="nav-menu">
-          <li><a class="nav-link" href="#projects">PROJECTS</a></li>
-          <li><a class="nav-link" href="mailto:monaksojitra4444@gmail.com">CONTACT</a></li>
-          <li><a class="nav-link" href="#">ABOUT</a></li>
-          <li>
-            <a class="nav-link btn btn-primary" target="_blank" href="./assets/cv.pdf">RESUME <i
-                class="fas fa-arrow-right"></i></a>
-          </li>
-
-          <!-- Toggle switch -->
-          <div class="theme-switch">
-            <input type="checkbox" id="switch" />
-            <label class="toggle-icons" for="switch">
-              <img class="moon" src="assets/moon.svg" />
-              <img class="sun" src="assets/sun.svg" />
-            </label>
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-          <!-- Hamburger menu -->
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <section class="header-container">
-      <img class="profile-image" src="assets/profile-image.jpg" alt="" />
-      <h1>Hi I'm Monank</h1>
+      <section class="header-container">
+        <img class="profile-image" src="assets/profile-image.jpg" alt="" />
+        <h1>Hi I'm Monank</h1>
 
+        <div class="content-text">
+          <h2>Building Website</h2>
+          <h2>products, brands, and experience.</h2>
+
+          <p>Crafting user experiences through code and design.</p>
+        </div>
+        <a
+          href="https://in.linkedin.com/in/mjpatel4444"
+          class="btn btn-secondary"
+          target="_blank"
+          >Connect With Me</a
+        >
+      </section>
+    </header>
+
+    <!-- Projects -->
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
       <div class="content-text">
-        <h2>Building Website</h2>
-        <h2>products, brands, and experience.</h2>
+        <h2>Works</h2>
+        <p>Check out some of my personal works</p>
+      </div>
 
+      <article class="project">
+        <!-- Project 1 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project One</h3>
+              <p>React, Bootstrap</p>
+            </div>
+            <div class="project-link">
+              <a href="https://github.com/monanksojitra" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Two</h3>
+              <p>React, Bootstrap</p>
+            </div>
+
+            <div class="project-link">
+              <a href="https://github.com/monanksojitra" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Porject 3 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Three</h3>
+              <p>Html, Bootstrap, js</p>
+            </div>
+
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/QuantumLab"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://monanksojitra.github.io/Quantumlab/"
+                target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Four</h3>
+              <p>Html, Bootstrap, js</p>
+            </div>
+
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/TODO-LIST"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://monanksojitra.github.io/TODO-LIST/"
+                target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Five</h3>
+              <p>Html, Bootstrap, js</p>
+            </div>
+
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/Calculator"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://monanksojitra.github.io/Calculator/"
+                target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Project Six</h3>
+              <p>Html, Bootstrap, js</p>
+            </div>
+
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/portfolio-website"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://monanksojitra.github.io/portfolio-website/"
+                target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <a
+        href="https://github.com/monanksojitra?tab=repositories"
+        class="btn btn-secondary"
+        target="_blank"
+        >See More <i class="fas fa-arrow-right"></i
+      ></a>
+    </section>
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Challenges</h2>
+        <p>Check out some of my personal works</p>
+      </div>
+
+      <article class="project">
+        <!-- Project 1 -->
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7093278584932343808"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7093514234025697280"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Porject 3 -->
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7093836861525102592"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7094196300845318146"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7094628441265717248"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7094999337302159360"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7095382850593562624"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7096193262062858241"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7096463723061477376"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7096903622403235841"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7097099755813560321"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7097487145065455616"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7097967515129044992"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7098344766416826368"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7098654894554791937"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7098995400799322112"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7099287337636888577"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7099701295963357184"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7100124243908059136"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7100495523702308866"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7101084053407174656"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7101625905235542016"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7102332006474092546"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7102701927972376576"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7103308102971588608"
+              height="300"
+              width="300"
+              frameborder="0"
+              allowfullscreen=""
+              title="Embedded post"
+            ></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7103774682935418880" height="300" width="300"
+            frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+          </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7104454995164434432" height="300" width="300"
+          frameborder="0" allowfullscreen="" title="Embedded post"></iframe> </div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7106140717109960704" height="300" width="300"
+        frameborder="0" allowfullscreen="" title="Embedded post"></iframe></div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7106161600251801600" height="300" width="300"
+      frameborder="0" allowfullscreen="" title="Embedded post"></iframe></div>
+        </div>
+        <div href="" class="card card1">
+          <div class="project-info">
+            <div class="project-link">
+              <a
+                href="https://github.com/monanksojitra/30_day_30_mini_react_projects"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7106685371425431552" height="300" width="300"
+      frameborder="0" allowfullscreen="" title="Embedded post"></iframe></div>
+        </div>
+      </article>
+
+      <a
+        href="https://github.com/monanksojitra?tab=repositories"
+        class="btn btn-secondary"
+        target="_blank"
+        >See More <i class="fas fa-arrow-right"></i
+      ></a>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <a href="mailto:monaksojitra4444@gmail.com"
+          >monaksojitra4444@gmail.com</a
+        >
+        <!-- Social links -->
+        <div class="social">
+          <a href="https://www.facebook.com/monaksojitra01/" target="_blank"
+            ><img src="./assets/facebook-icon.svg" alt="Facebook"
+          /></a>
+          <a href="https://in.linkedin.com/in/mjpatel4444" target="_blank"
+            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
+          /></a>
+          <a href="https://github.com/monanksojitra" target="_blank"
+            ><img src="./assets/github-icon.svg" alt="GitHub"
+          /></a>
+        </div>
         <p>
-          Crafting user experiences through code and design.
+          Copyright &copy; Monank Sojitra <span id="datee"></span>, All rights
+          reserved
         </p>
       </div>
-      <a href="https://in.linkedin.com/in/mjpatel4444" class="btn btn-secondary" target="_blank">Connect With
-        Me</a>
-    </section>
-  </header>
-
-  <!-- Projects -->
-  <section id="projects" class="project-container container">
-    <div class="division"></div>
-    <div class="content-text">
-      <h2>Works</h2>
-      <p>Check out some of my personal works</p>
-    </div>
-
-    <article class="project">
-      <!-- Project 1 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project One</h3>
-            <p>React, Bootstrap</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra" target="_blank"><i class="fab fa-github"></i></a>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project Two</h3>
-            <p>React, Bootstrap</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra" target="_blank"><i class="fab fa-github"></i></a>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Porject 3 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project Three</h3>
-            <p>Html, Bootstrap, js</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/QuantumLab" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://monanksojitra.github.io/Quantumlab/" target="_blank"><i class="fas fa-globe"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 4 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project Four</h3>
-            <p>Html, Bootstrap, js</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/TODO-LIST" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://monanksojitra.github.io/TODO-LIST/" target="_blank"><i class="fas fa-globe"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 5 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project Five</h3>
-            <p>Html, Bootstrap, js</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/Calculator" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://monanksojitra.github.io/Calculator/" target="_blank"><i class="fas fa-globe"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 6 -->
-      <div href="" class="card">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project Six</h3>
-            <p>Html, Bootstrap, js</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/portfolio-website" target="_blank"><i
-                class="fab fa-github"></i></a>
-            <a href="https://monanksojitra.github.io/portfolio-website/" target="_blank"><i
-                class="fas fa-globe"></i></a>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <a href="https://github.com/monanksojitra?tab=repositories" class="btn btn-secondary" target="_blank">See More <i
-        class="fas fa-arrow-right"></i></a>
-  </section>
-  <section id="projects" class="project-container container">
-    <div class="division"></div>
-    <div class="content-text">
-      <h2>Challenges</h2>
-      <p>Check out some of my personal works</p>
-    </div>
-
-    <article class="project">
-      <!-- Project 1 -->
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 1</h3>
-            <p>Calculator with Result History 🧮</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 2</h3>
-            <p>Interactive Form Validation 📝</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Porject 3 -->
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 3</h3>
-            <p>Todo List with LocalStorage 📅</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 4 -->
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 4</h3>
-            <p>Animated Image Gallery 🖼️</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 5 -->
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 5</h3>
-            <p>Weather App with API Integration 🌦️</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 6 -->
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 6</h3>
-            <p>Social Media Card 📇</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 7</h3>
-            <p>Infinite Scroll Image Gallery 📜</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 8</h3>
-            <p>Countdown Timer ⏳</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 9</h3>
-            <p>GitHub User Finder 🔍</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 10</h3>
-            <p>Quiz App 📝</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-      <div href="" class="card card1">
-        <div class="project-info">
-          <div class="project-bio">
-            <h3>Project 11</h3>
-            <p>Drag and Drop Todo List 📝</p>
-          </div>
-
-          <div class="project-link">
-            <a href="https://github.com/monanksojitra/30_day_30_mini_react_projects" target="_blank"><i
-                class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <a href="https://github.com/monanksojitra?tab=repositories" class="btn btn-secondary" target="_blank">See More <i
-        class="fas fa-arrow-right"></i></a>
-  </section>
-
-  <footer id="footer">
-    <div class="container">
-      <a href="mailto:monaksojitra4444@gmail.com">monaksojitra4444@gmail.com</a>
-      <!-- Social links -->
-      <div class="social">
-        <a href="https://www.facebook.com/monaksojitra01/" target="_blank"><img src="./assets/facebook-icon.svg"
-            alt="Facebook" /></a>
-        <a href="https://in.linkedin.com/in/mjpatel4444" target="_blank"><img src="./assets/linkedin-icon.svg"
-            alt="Linkedin" /></a>
-        <a href="https://github.com/monanksojitra" target="_blank"><img src="./assets/github-icon.svg"
-            alt="GitHub" /></a>
-      </div>
-      <p>Copyright &copy; Monank Sojitra <span id="datee"></span>, All rights reserved</p>
-    </div>
-  </footer>
-  <script src="js/script.js"></script>
-</body>
-
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
